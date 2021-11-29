@@ -1,0 +1,32 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "implicit-arrow-linebreak": ["error", "beside"],
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "max-classes-per-file": ["error", 2],
+    "no-param-reassign": [2, { "props": false }],
+    "object-curly-newline": 0,
+    "one-var": ["error", "consecutive"],
+    "react/button-has-type": 0,
+    "react/destructuring-assignment": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-fragments": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/no-array-index-key": 0,
+    "react/require-default-props": 0,
+    "react/function-component-definition": 0
+  },
+  "ignorePatterns": [ "node_modules/*" ]
+}

@@ -1,0 +1,22 @@
+.table-row {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ccc;
+
+  &:not(.no-action):hover {
+    cursor: pointer;
+  }
+
+  .table-cell {
+    flex: 1;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    font-weight: bold;
+    padding: 0 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

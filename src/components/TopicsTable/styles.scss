@@ -1,0 +1,27 @@
+.topics-table {
+  padding: 24px 0;
+
+  & > .table-wrapper {
+    width: 375px;
+
+    .table-header > .header {
+      &:first-child {
+        flex: 0 0 175px;
+      }
+
+      &:nth-child(2) {
+        flex: 0 0 100px;
+      }
+    }
+
+    .table-row > .table-cell {
+      &:first-child {
+        flex: 0 0 175px;
+      }
+
+      &:nth-child(2) {
+        flex: 0 0 100px;
+      }
+    }
+  }
+}
