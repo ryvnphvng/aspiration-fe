@@ -27,7 +27,6 @@ Best of luck
 
 ## Dev Notes
 
-* Leave any technical notes on any libraries or tools you chose to use, the more detail the better.
 * `@apollo/client`: allows for GraphQL.
 * `classnames`: allows joining of classNames together.
 * `eslint`: allows standardizing code patterns for cleaner code style.
@@ -36,8 +35,6 @@ Best of luck
 
 ### How to run app & test
 
-* Leave instruction on how to run and test your app here
-
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -45,7 +42,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm linter`
 
-Runs eslint on code.\
+Runs eslint on code.
 
 ### `npm test`
 
